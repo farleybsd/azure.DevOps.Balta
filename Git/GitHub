@@ -6,7 +6,6 @@ gh auth login
 
  # Iniciar um Repo Local (Sera Criando no servidor)
  git init 
- git remote add origin https://github.com/farleybsd/azure.DevOps.Balta.git
  git add .
  git commit -m "Start"
  git puh -u origin main
@@ -21,4 +20,12 @@ git config --global user.name "RufinoDev"
 # Setando o Email do Usuario
 git config --global user.email "farley.t.i@hotmail.com"
 
+# Criando GitIgnore
+dotnet new gitignore 
 
+# Pegando Codigo do Servidor
+git pull
+
+# Criando Uma Branch a partir da Main 
+git checkout -b create-new-user
+it puh -u origin main create-new-user
