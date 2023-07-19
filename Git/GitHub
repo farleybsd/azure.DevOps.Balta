@@ -9,7 +9,7 @@ gh auth login
  git remote add origin https://github.com/farleybsd/azure.DevOps.Balta.git
  git add .
  git commit -m "Start"
- git puh 
+ git puh -u origin main
  git push --set-upstream origin main
 
  # Trocando o nome da branch de Master para Main
