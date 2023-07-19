@@ -8,6 +8,7 @@ gh auth login
  git init 
  git add .
  git commit -m "Start"
+ git puh 
 
  # Trocando o nome da branch de Master para Main
  git config --global init.defaultBranch main 
