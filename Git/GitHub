@@ -7,6 +7,8 @@ gh auth login
  # Iniciar um Repo Local (Sera Criando no servidor)
  git init 
  git add .
+ git commit -m "Start"
+
  # Trocando o nome da branch de Master para Main
  git config --global init.defaultBranch main 
 
